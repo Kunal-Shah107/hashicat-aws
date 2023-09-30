@@ -3,6 +3,7 @@ module "s3-bucket" {
   version = "2.8.0"
 
   bucket = "my-s3-bucket"
+  bucket_prefix = "acloudguy"
   acl    = "private"
 
   versioning = {
