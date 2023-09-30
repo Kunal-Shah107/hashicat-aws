@@ -1,9 +1,7 @@
 module "s3-bucket" {
   source  = "app.terraform.io/huconew/s3-bucket/aws"
   version = "2.8.0"
-}
 
-  bucket_prefix = "acloudguy"  
   bucket = "my-s3-bucket"
   acl    = "private"
 
